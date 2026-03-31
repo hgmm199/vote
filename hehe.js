@@ -11,7 +11,7 @@ app.listen(3000, () => console.log("Web Server đã sẵn sàng."));
 const client = new Client({ checkUpdate: false });
 
 const TOKEN = "token_cua_ban"; // Khuyên dùng process.env.TOKEN nếu treo trên web
-const VOICE_CHANNEL_ID = "1488368207457816606";
+const VOICE_CHANNEL_ID = "1488399003908309032";
 
 async function connectToVoice() {
     try {
